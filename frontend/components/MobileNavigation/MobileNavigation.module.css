@@ -1,0 +1,25 @@
+.mobile__nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4rem;
+    background-color: aliceblue;
+    z-index: 45;
+}
+
+.mobile__navigation__container{
+    display:none;
+    
+    
+
+}
+
+@media screen and (max-width: 768px){
+    .mobile__navigation__container{
+        display: flex;
+    }
+}
+    
